@@ -41,12 +41,11 @@ header nav a:hover{
     color: azure;
 }
 
-.filme-principal{
+.filme-principal .container {
     font-size:21px;
     background:   url(/img/house_of_cards_1200x630-min.png);
-    
-    height: 630px;
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
 
     display: flex;
     flex-direction: column;
@@ -60,7 +59,7 @@ header nav a:hover{
     }
 
 .filme-principal .titulo{
-    margin-top: 400px;
+    margin-top:30%;
     font-size: 40px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -71,6 +70,7 @@ border: none;
 color: white;
 padding: 15px;
 margin-right: 15px;
+margin-bottom: 10px;
 cursor: pointer;
 transition: 0.3s ease all;
 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
